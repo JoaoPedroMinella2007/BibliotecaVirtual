@@ -1,0 +1,17 @@
+Model\UsuarioDAO.class
+Controller\TelaCadastroController.class
+Model\Clientes.class
+Controller\TelaCadastroClienteController.class
+Controller\TelaSobreController.class
+Controller\TelaEntrarController.class
+module-info.class
+Controller\TelaLoginController.class
+util\AlertUtil.class
+Model\Usuario.class
+Model\GenericDAO.class
+dao\ConexaoBD.class
+Model\ClientesDAO.class
+principal\App.class
+Controller\TelaCadastroLivroController.class
+Controller\TelaCadastroUsuarioController.class
+Controller\TelaInicialController.class

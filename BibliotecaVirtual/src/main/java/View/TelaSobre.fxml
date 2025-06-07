@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="588.0" prefWidth="1045.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TelaSobreController">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text lineSpacing="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Biblioteca Virtual é um sistema desenvolvido para facilitar a organização, consulta e gerenciamento de livros em um ambiente digital simples e funcional.O projeto foi construído em Java, utilizando a biblioteca gráfica JavaFX para a criação da interface amigável e intuitiva. O foco está em oferecer uma experiência acessível tanto para usuários iniciantes quanto para os mais exigentes. Esta aplicação é fruto de estudo, dedicação e muito café ☕ " translateX="35.0" translateY="30.0" wrappingWidth="983.576904296875">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Desenvolvedor: João Pedro Minella" translateX="35.0" translateY="70.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tecnologia: Java + JavaFX + IDE NetBeans" translateX="35.0" translateY="90.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Versão: 1.0" translateX="35.0" translateY="110.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ano: 2025" translateX="35.0" translateY="130.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="🛠 Sobre o Sistema" textAlignment="CENTER" textOrigin="CENTER" translateY="-40.0" wrappingWidth="786.9989624023438" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Text>
+   </top>
+</BorderPane>
