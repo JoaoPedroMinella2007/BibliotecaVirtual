@@ -1,4 +1,4 @@
-Sistema de Biblioteca usando JavaFX
+**Sistema de Biblioteca usando JavaFX**
 
 Sistema de Biblioteca com interface gráfica em JavaFX e FXML. Possui cadastro de usuários, controle de empréstimos, consultas, relatórios e controle de acesso por perfil (admin/usuário). Projeto pessoal para praticar Java, MVC e desenvolvimento GUI.
 
