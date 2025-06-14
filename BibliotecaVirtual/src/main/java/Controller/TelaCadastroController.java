@@ -9,6 +9,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 public class TelaCadastroController {
@@ -37,12 +38,11 @@ public class TelaCadastroController {
 
             Scene scene = new Scene (root);
 
-            /*
-            Adiciona a logo no ícone da tela
             
-            Image icone = new Image(getClass().getResourceAsStream("/icons/Bh.png"));
-            telaEntrar.getIcons().add(icone);
-            */
+            //Adiciona a logo no ícone da tela         
+            Image icone = new Image(getClass().getResourceAsStream("/images/IconeBV.png"));
+            telaCadastroCliente.getIcons().add(icone);
+            
 
            //impede o redimensionamento e maximização da tela      
             telaCadastroCliente.setResizable(false);
@@ -73,12 +73,11 @@ public class TelaCadastroController {
 
             Scene scene = new Scene (root);
 
-            /*
-            Adiciona a logo no ícone da tela
+            //Adiciona a logo no ícone da tela
             
-            Image icone = new Image(getClass().getResourceAsStream("/icons/Bh.png"));
-            telaEntrar.getIcons().add(icone);
-            */
+            Image icone = new Image(getClass().getResourceAsStream("/images/IconeBV.png"));
+            telaCadastroLivros.getIcons().add(icone);
+            
 
            //impede o redimensionamento e maximização da tela      
             telaCadastroLivros.setResizable(false);

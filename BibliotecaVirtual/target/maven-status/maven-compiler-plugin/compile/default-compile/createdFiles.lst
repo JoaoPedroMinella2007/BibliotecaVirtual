@@ -4,8 +4,10 @@ Model\Clientes.class
 Controller\TelaCadastroClienteController.class
 Controller\TelaSobreController.class
 Controller\TelaEntrarController.class
+Model\Livro.class
 module-info.class
 Controller\TelaLoginController.class
+Model\LivroDAO.class
 util\AlertUtil.class
 Model\Usuario.class
 Model\GenericDAO.class

@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URL;
 import static javafx.application.Application.launch;
+import javafx.scene.image.Image;
 
 public class App extends Application {
 
@@ -31,8 +32,8 @@ public class App extends Application {
         
         Scene scene = new Scene (root);
         
-        /*Image icone = new Image(getClass().getResourceAsStream("/icons/Bh.png"));
-        telaEntrar.getIcons().add(icone);*/
+        Image icone = new Image(getClass().getResourceAsStream("/images/IconeBV.png"));
+        telaEntrar.getIcons().add(icone);
         
         telaEntrar.setScene(scene);
         telaEntrar.setTitle("BV - Biblioteca Virtual | Entrar no sistema");

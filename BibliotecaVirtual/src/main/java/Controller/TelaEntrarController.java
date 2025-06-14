@@ -9,6 +9,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 public class TelaEntrarController {
@@ -36,8 +37,8 @@ public class TelaEntrarController {
         
         Scene scene = new Scene (root);
         
-        /*Image icone = new Image(getClass().getResourceAsStream("/icons/Bh.png"));
-        telaEntrar.getIcons().add(icone);*/
+        Image icone = new Image(getClass().getResourceAsStream("/images/IconeBV.png"));
+        telaCadastroUsuario.getIcons().add(icone);
         
         //impede o redimensionamento e maximização da tela      
         telaCadastroUsuario.setResizable(false);
@@ -65,8 +66,8 @@ public class TelaEntrarController {
         
         Scene scene = new Scene (root);
         
-        /*Image icone = new Image(getClass().getResourceAsStream("/icons/Bh.png"));
-        telaEntrar.getIcons().add(icone);*/
+        Image icone = new Image(getClass().getResourceAsStream("/images/IconeBV.png"));
+        telaLogin.getIcons().add(icone);
         
         //impede o redimensionamento e maximização da tela      
         telaLogin.setResizable(false);
