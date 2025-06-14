@@ -34,7 +34,7 @@ CREATE TABLE `clientes` (
   `dataCadastro` date NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `cpf` (`cpf`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -43,6 +43,7 @@ CREATE TABLE `clientes` (
 
 LOCK TABLES `clientes` WRITE;
 /*!40000 ALTER TABLE `clientes` DISABLE KEYS */;
+INSERT INTO `clientes` VALUES (1,'José ','Ferreira da Silva','123.456.789-10','joseFerreira@gmail.com','Rua Galápagos','47 12345-6789','1982-06-14','2025-06-14');
 /*!40000 ALTER TABLE `clientes` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -58,14 +59,14 @@ CREATE TABLE `livros` (
   `titulo` varchar(200) NOT NULL,
   `autor` varchar(200) NOT NULL,
   `editora` varchar(100) DEFAULT NULL,
-  `anoPublicacao` date NOT NULL,
   `isbn` varchar(20) NOT NULL,
   `categoria` varchar(100) NOT NULL,
   `descricao` text,
+  `anoPublicacao` date NOT NULL,
   `dataCadastro` date NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `isbn` (`isbn`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -74,6 +75,7 @@ CREATE TABLE `livros` (
 
 LOCK TABLES `livros` WRITE;
 /*!40000 ALTER TABLE `livros` DISABLE KEYS */;
+INSERT INTO `livros` VALUES (1,'Dom Quixote','Miguel de Cervantes','Companhia das Letras','9788535914849','Romance','A saga do cavaleiro louco que lutava contra moinhos de vento. Uma crítica sagaz e poética à sociedade, aos valores e à própria literatura de sua época.','2025-01-16','2025-06-14');
 /*!40000 ALTER TABLE `livros` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -93,7 +95,7 @@ CREATE TABLE `usuarios` (
   `sobrenome` varchar(45) NOT NULL,
   `dataNascimento` date NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -102,7 +104,7 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES (5,'joao','12345','Administrador','João Pedro','Minella','2025-01-25'),(6,'Ana Julia','54321','Usuário','Ana Júlia','Dos Santos Penteado','2025-08-14');
+INSERT INTO `usuarios` VALUES (5,'joao','12345','Administrador','João Pedro','Minella','2025-01-25'),(6,'Ana Julia','54321','Usuário','Ana Júlia','Dos Santos Penteado','2025-08-14'),(7,'carlos','54321','Usuário','carlos','minella','2025-09-07'),(8,'na julia','41474147','Usuário','Ana julia ','Dos Santos Penteado','2025-08-14');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -115,4 +117,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-06-07  0:55:16
+-- Dump completed on 2025-06-14  1:01:19
