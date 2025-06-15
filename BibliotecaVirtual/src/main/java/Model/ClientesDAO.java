@@ -76,7 +76,7 @@ public class ClientesDAO extends GenericDAO{
         }       
     }
     
-    public static List<Clientes> listarTodos() throws SQLException{
+    public static List<Clientes> listarTodos(){
         
         List<Clientes> listagemClientes = new ArrayList<>();
         
@@ -95,7 +95,7 @@ public class ClientesDAO extends GenericDAO{
                 rs.getString("email"),
                 rs.getString("endereco"),
                 rs.getString("telefone"),
-                rs.getDate("dataAniversario").toLocalDate(),
+                rs.getDate("dataNascimento").toLocalDate(),
                 rs.getDate("dataCadastro").toLocalDate()      
           ); 
             

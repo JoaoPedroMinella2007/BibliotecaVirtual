@@ -70,7 +70,7 @@ public class TelaCadastroLivroController {
         } else {
             AlertUtil.mostrarErro("Erro", "Falha no cadastro", "Não foi possível cadastrar o livro!");
         }
-
+  
     }
 
     void setStage(Stage telaCadastroLivros) {

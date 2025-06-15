@@ -71,7 +71,13 @@ public class TelaInicialController {
     }
 
     @FXML
-    void OnActionBtnAbrirTelaConsultas(ActionEvent event) {
+    void OnActionBtnAbrirTelaConsultas(ActionEvent event) throws IOException {
+        
+        File file = new File("src/main/java/View/TelaConsultas.fxml");
+        URL url = file.toURI().toURL();
+        FXMLLoader loader = new FXMLLoader(url);
+        Parent sobre = loader.load();
+        mainPane.setCenter(sobre);
 
     }
 

@@ -3,6 +3,7 @@ C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\C
 C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\dao\ConexaoBD.java
 C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\Model\Usuario.java
 C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\Controller\TelaEntrarController.java
+C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\Controller\TelaConsultaClientesController.java
 C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\Model\ClientesDAO.java
 C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\Controller\TelaLoginController.java
 C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\Controller\TelaSobreController.java
@@ -12,6 +13,7 @@ C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\M
 C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\util\AlertUtil.java
 C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\Controller\TelaCadastroClienteController.java
 C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\Model\GenericDAO.java
+C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\Controller\TelaConsultasController.java
 C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\Controller\TelaCadastroUsuarioController.java
 C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\Model\UsuarioDAO.java
 C:\Users\João Pedro Minella\BibliotecaVirtual\BibliotecaVirtual\src\main\java\Controller\TelaCadastroController.java

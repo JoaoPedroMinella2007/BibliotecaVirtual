@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="1051.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TelaConsultaClientesController">
+   <left>
+      <VBox prefHeight="400.0" prefWidth="237.0" style="-fx-background-color: #6ec4e9;" BorderPane.alignment="CENTER">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Pane prefHeight="402.0" prefWidth="238.0">
+               <children>
+                  <ImageView fitHeight="255.0" fitWidth="248.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/images/LogoBV.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="25.0" layoutY="282.0" text="Versão 1.0" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <Pane prefHeight="586.0" prefWidth="682.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="47.0" layoutY="56.0" prefHeight="469.0" prefWidth="728.0" style="-fx-background-color: #d9d9d9;">
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color opacity="0.6268997192382812" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <Label layoutX="203.0" layoutY="14.0" text="CONSULTAR CLIENTE">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="tabelaClientes" layoutX="21.0" layoutY="135.0" prefHeight="320.0" prefWidth="679.0">
+                     <columns>
+                        <TableColumn fx:id="TableColumnId" prefWidth="75.0" text="ID" />
+                        <TableColumn fx:id="TableColumnNome" prefWidth="75.0" text="Nome" />
+                        <TableColumn fx:id="TableColumnSobrenome" prefWidth="75.0" text="Sobrenome" />
+                        <TableColumn fx:id="TableColumnCpf" prefWidth="75.0" text="CPF" />
+                        <TableColumn fx:id="TableColumnEmail" prefWidth="75.0" text="Email" />
+                        <TableColumn fx:id="TableColumnEndereco" prefWidth="75.0" text="Endereço" />
+                        <TableColumn fx:id="TableColumnTelefone" prefWidth="75.0" text="Telefone" />
+                        <TableColumn fx:id="TableColumnNascimento" prefWidth="75.0" text="Nascimento" />
+                        <TableColumn fx:id="TableColumnCadastro" prefWidth="75.0" text="Cadastro" />
+                     </columns></TableView>
+                  <TextField fx:id="txtfdPesquisaFiltrada" layoutX="21.0" layoutY="93.0" prefHeight="25.0" prefWidth="227.0" />
+                  <Label layoutX="21.0" layoutY="76.0" text="Pesquisa filtrada" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

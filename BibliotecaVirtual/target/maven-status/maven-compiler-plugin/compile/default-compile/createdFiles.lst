@@ -1,4 +1,5 @@
 Model\UsuarioDAO.class
+Controller\TelaConsultasController.class
 Controller\TelaCadastroController.class
 Model\Clientes.class
 Controller\TelaCadastroClienteController.class
@@ -8,6 +9,7 @@ Model\Livro.class
 module-info.class
 Controller\TelaLoginController.class
 Model\LivroDAO.class
+Controller\TelaConsultaClientesController.class
 util\AlertUtil.class
 Model\Usuario.class
 Model\GenericDAO.class
